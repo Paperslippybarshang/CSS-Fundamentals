@@ -1,0 +1,27 @@
+html {
+    font-size: 1vw;
+    font-family: 'Big Caslon', monospace;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+section {
+    font-size: 1.5rem;
+}
+/* 
+Absolute Unit
+px - pixels
+Q. isn't px not useful for the responsive design?
+Relative unit
+vw - viewport width
+vh - viewport height
+em - Similar to vw/vh but represents size of letter 'M'. Size is based on the whatever the default size of the parent element
+rem - root em: 
+*/
+
