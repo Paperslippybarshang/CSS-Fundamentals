@@ -1,14 +1,22 @@
 html {
     font-size: 1vw;
-    font-family: 'Big Caslon', monospace;
+    font-family: Quicksand, sans-serif;
 }
 
 h1 {
     font-size: 6rem;
+    font-family: Comfortaa, sans-serif;
+}
+
+p {
+    font-size: 2rem;
 }
 
 h2 {
     font-size: 3rem;
+    text-decoration: underline overline coral;
+    /* text-decoration-line: underline;
+    text-decoration-color: coral; */
 }
 
 section {
@@ -25,3 +33,12 @@ em - Similar to vw/vh but represents size of letter 'M'. Size is based on the wh
 rem - root em: 
 */
 
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-shadow: 5px 5px teal;
+}
