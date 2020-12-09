@@ -1,0 +1,18 @@
+/* * {
+    text-decoration: underline magenta wavy;
+    border: 2px solid cyan;
+} */
+
+#logo {
+    width:500px;
+}
+
+h2 {
+    color:teal;
+}
+
+.poem {
+    width: 500px;
+    color: gray;
+    font-style: italic;
+}
