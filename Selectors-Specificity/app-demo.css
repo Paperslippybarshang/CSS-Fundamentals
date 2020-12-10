@@ -13,6 +13,64 @@ h2 {
 
 .poem {
     width: 500px;
-    color: gray;
+}
+
+.poem p {
+    color: grey;
     font-style: italic;
+}
+/* Decendant Selectors */
+nav a {
+    font-size: 1.5em;
+    color: steelblue;
+    text-decoration: none;
+}
+/* Adjacent Selectors */
+
+h2 + h3 {
+    color:orangered;
+}
+
+.poem + img {
+    width: 900px;
+}
+
+/* Direct Child Selectors */
+#works li {
+    font-size: 16px;
+}
+#works > li {
+    font-size: 1.5em;
+}
+
+.poem > p {
+    color: black;
+    font-style: normal;
+}
+
+/* Multiple Selectors */
+h1, a {
+    color: olive;
+
+}
+
+/* Pseudo class */
+nav a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+input:focus {
+    background-color: pink;
+}
+
+.poem section p:first-of-type {
+    color: magenta;
+}
+
+nav li:nth-of-type(2n) {
+    background-color: lavender;
+}
+nav li:nth-of-type(2n+1) {
+    background-color: lightpink;
 }
