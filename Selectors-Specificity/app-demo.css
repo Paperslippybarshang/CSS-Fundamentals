@@ -74,3 +74,39 @@ nav li:nth-of-type(2n) {
 nav li:nth-of-type(2n+1) {
     background-color: lightpink;
 }
+
+/* Pseudo ELements */
+
+.poem section p:first-of-type::first-letter {
+    font-size: 2em;
+}
+
+p::first-line{
+    color: yellowgreen;
+}
+
+input:focus::placeholder {
+    color: white;
+}
+
+/*  Attribute Selector */
+
+input[type="password"] {
+    background-color: lightblue;
+}
+
+input[src*="unsplash"] {
+    width: 600px;
+}
+
+h3 {
+    color: cyan;
+}
+
+.poem h3 {
+    color:magenta;
+}
+
+/* Specificity
+    In css, most specific selectors wins when there are conflicts
+*/
