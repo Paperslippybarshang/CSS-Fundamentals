@@ -1,0 +1,47 @@
+h1 {
+    background-color: lavender;
+    width: 50%;
+    /* height: 100px; */
+    border-bottom: 10px solid blue;
+}
+
+h2 {
+    background-color: lightpink;
+    width: 50%;
+}
+img {
+    width: 40%;
+    max-width: 300px;
+    /* border-color: purple teal;
+    border-width: 10px;
+    border-style: dashed solid dotted none; */
+    border: 10px solid pink;
+    border-left-width: 5px;
+
+}
+
+p {
+    width: 50%;
+    min-width: 500px;
+}
+
+section {
+    width: 200px;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+#container {
+    border: 1px solid black;
+    width: 500px;
+}
+
+#container .item {
+    height: 100px;
+    border: 1px solid orangered;
+    margin: 1em;
+}
+
+#container .item:nth-of-type(2) {
+    margin-left: 2em;
+}
