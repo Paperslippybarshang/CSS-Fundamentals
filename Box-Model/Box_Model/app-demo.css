@@ -39,12 +39,22 @@ section {
 #container {
     border: 1px solid black;
     width: 500px;
+    margin: 0 auto;
 }
+
 
 #container .item {
     height: 100px;
     border: 1px solid orangered;
-    margin: 1em;
+    margin: 50px;
+    box-sizing: border-box;
+
+}
+
+
+#container .item:hover {
+    border: 10px solid olive;
+    outline: 10px solid lightblue;
 }
 
 #container .item:nth-of-type(2) {
